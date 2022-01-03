@@ -16,9 +16,12 @@
         <tr>
             <td>@k.ID</td>
             <td>@k.KitapAd</td>
-            <td>@k.Yazarr</td>
+            <td>@k.Yazar</td>
         </tr>
     }
 </table>
+<h2>Gelecek Kitaplar</h2>
+@await Component.InvokeAsync("YeniKitaplar"); 
+<br />
 @Html.Partial("_PartialPage")
 

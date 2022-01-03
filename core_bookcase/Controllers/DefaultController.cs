@@ -16,7 +16,7 @@ namespace core_bookcase.Controllers
             var ktp = new List<Kitaplar>()
             {
 
-             new Kitaplar() { ID = 1, KitapAd = "Satranç", Yazar = "Zweig"},
+            new Kitaplar() { ID = 1, KitapAd = "Satranç", Yazar = "Zweig"},
             new Kitaplar() { ID = 2, KitapAd = "Kürk Mantolu Madonna", Yazar = "Sabahattin Ali"},
             new Kitaplar() { ID = 3, KitapAd = "Küçük Prens", Yazar = "Antoine de Saint-Exupéry"},
             new Kitaplar() { ID = 4, KitapAd = "Şeker Portakalı", Yazar = "José Mauro de Vasconcelos" },

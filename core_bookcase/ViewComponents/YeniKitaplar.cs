@@ -23,8 +23,8 @@ namespace core_bookcase.ViewComponents
                 new Kitaplar
                  {
                     ID=7,
-                    KitapAd="Korku",
-                    Yazar="Zweig"
+                    KitapAd="Anna Karanina",
+                    Yazar="Tolstoy"
 
                 }
             };
